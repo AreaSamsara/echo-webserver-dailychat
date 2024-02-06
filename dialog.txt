@@ -1,0 +1,9 @@
+(C for client and S for server)
+C: Do you like C++?
+S: Yes, I do.
+C Why do you like C++?
+S: Because I can use it to write programs.
+S: And you ?
+(After the server sends "And you ?”the server invokes close( ) to close the link to the client deliberately.)
+(Next，the client have to try to reconnect to the server inorder to send the discource followed and friendly closes the link then.)
+C: Me too
