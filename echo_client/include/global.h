@@ -14,12 +14,12 @@ using std::vector;
 
 namespace
 {
-	const int SERVER_PORT = 666;
+	const int SERVER_PORT = 8080;
 	const string SERVER_IP = "127.0.0.1";
 }
 
 void ERROR_Hint(const string& function)
 {
-	cout << "[Hint]" << function << " error,reason: " << strerror(errno) << endl;
+	cout << "[Hint]" << function << "() error,reason: " << strerror(errno) << endl;
 	exit(EXIT_FAILURE);
 }

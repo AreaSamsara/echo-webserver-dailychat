@@ -1,4 +1,4 @@
-#include "global.h"
+#include "../include/global.h"
 
 int main(void)
 {

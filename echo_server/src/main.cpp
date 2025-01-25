@@ -1,4 +1,4 @@
-#include "global.h"
+#include "../include/global.h"
 
 int main(void)
 {
@@ -26,7 +26,7 @@ int main(void)
 	cout << "The server is running:" << endl;
 
 	bool Round2 = false;	//The label which indicts whether it's the second time client is connected to the server or not
-	while (1)
+	while (true)
 	{
 		//set client address
 		sockaddr_in client_addr;
