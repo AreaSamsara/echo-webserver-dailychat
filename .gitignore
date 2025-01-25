@@ -1,0 +1,4 @@
+echo_client/bin
+echo_server/bin
+echo_client/build
+echo_server/build
